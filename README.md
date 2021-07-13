@@ -1,5 +1,5 @@
 # usydtelecomlab.github.io
-[The home page](https://usydtelecomlab.github.io/)
+[https://usydtelecomlab.github.io/](https://usydtelecomlab.github.io/)
 
 ## Use Git to install this module
 * In `~/.ssh/config`, add the configuration of ssh-key and the alias for this github account `Host` (to avoid contradiction)

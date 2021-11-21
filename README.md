@@ -2,7 +2,7 @@
 
 Use the link below to see the document online
 
-[https://usydtelecomlab.github.io/](https://usydtelecomlab.github.io)
+[https://usyd-telecomlab.gitbook.io/usyd-telecom-lab/](https://usyd-telecomlab.gitbook.io/usyd-telecom-lab/)
 
 ## Use Git to install this module
 

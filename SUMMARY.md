@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Introduction to Git](README.md)
+* [Install Git](README.md)
 * [Introduction to Github](introduction-to-github.md)

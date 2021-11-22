@@ -6,6 +6,16 @@ Paste the text below, substituting in your GitHub email address.
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
+{% hint style="info" %}
+
+
+**Note:** If you are using a legacy system that doesn't support the Ed25519 algorithm, use:
+
+```shell
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+{% endhint %}
+
 This creates a new SSH key, using the provided email as a label.
 
 ```
@@ -13,8 +23,6 @@ This creates a new SSH key, using the provided email as a label.
 ```
 
 When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location.
-
-
 
 ```shell
 > Enter a file in which to save the key (/c/Users/you/.ssh/id_algorithm):[Press enter]

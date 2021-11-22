@@ -5,4 +5,5 @@
 * [SSH Key](ssh-key/README.md)
   * [Create SSH Key](ssh-key/create-ssh-key.md)
   * [Activate SSH Key locally](ssh-key/activate-ssh-key-locally.md)
+  * [Combine SSH key to git clone](ssh-key/combine-ssh-key-to-git-clone.md)
 * [Introduction to Github](introduction-to-github.md)

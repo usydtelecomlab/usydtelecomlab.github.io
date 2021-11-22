@@ -2,5 +2,6 @@
 
 * [USYD Telecom Lab](README.md)
 * [Install Git](install-git.md)
-* [SSH Key](ssh-key.md)
+* [SSH Key](ssh-key/README.md)
+  * [Create SSH Key](ssh-key/create-ssh-key.md)
 * [Introduction to Github](introduction-to-github.md)

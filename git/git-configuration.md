@@ -6,7 +6,7 @@ Right click This PC -> Advanced system settings -> Environment variables
 
 In User variables for \*\*\* (here should be your windows account name), create a viable called Home, set its value to a directory except for your system disk
 
-![](<.gitbook/assets/git environment.png>)
+![](<../.gitbook/assets/git environment.png>)
 
 ## Enable Long Path (Mandotary)
 

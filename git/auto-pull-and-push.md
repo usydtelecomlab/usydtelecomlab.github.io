@@ -24,10 +24,10 @@ I don't recommend to run **auto-push**&#x20;
 **Auto-push** tracks the adding of submodules and the version of the submodule currently used.&#x20;
 {% endhint %}
 
-![](.gitbook/assets/file\_structure.png)
+![](../.gitbook/assets/file\_structure.png)
 
 ## Bat files download
 
-{% file src=".gitbook/assets/pull-all.bat" %}
+{% file src="../.gitbook/assets/pull-all.bat" %}
 
-{% file src=".gitbook/assets/push-all.bat" %}
+{% file src="../.gitbook/assets/push-all.bat" %}

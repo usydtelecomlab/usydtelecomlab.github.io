@@ -4,7 +4,7 @@
 
 After installing Git, right click the blank of your desktop and click `Git Bash Here`
 
-![](<../.gitbook/assets/git open termimal.jpg>)
+![](<../../.gitbook/assets/git open termimal.jpg>)
 
 Then, in the terminal you type `cd ~/.ssh`
 

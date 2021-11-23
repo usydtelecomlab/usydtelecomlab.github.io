@@ -16,4 +16,4 @@ ssh-add ~/.ssh/your_private_ssh_key_name
 
 The example is also given below
 
-![](../.gitbook/assets/git\_activate\_ssh\_key.png)
+![](../../.gitbook/assets/git\_activate\_ssh\_key.png)

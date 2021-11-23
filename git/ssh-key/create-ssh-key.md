@@ -37,6 +37,6 @@ At the prompt, type a secure passphrase. For more information, see ["Working wit
 
 The example is shown below
 
-![](../.gitbook/assets/git\_create\_ssh\_key.png)
+![](../../.gitbook/assets/git\_create\_ssh\_key.png)
 
 If you type`ls`, you will see two files created: the one ends with **.pub** is your **public key** and the other is your **private key**

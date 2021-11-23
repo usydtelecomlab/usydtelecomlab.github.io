@@ -20,8 +20,8 @@ Then you copy and paste below (**your\_private\_ssh\_file\_name** is your privat
 
 ```
 #github-usydtelecomlab
-Host github.com
-        HostName usydtelecomlab.github.com
+Host usydtelecomlab.github.com
+        HostName github.com
         #User git
         PreferredAuthentications publickey
         IdentityFile ~/.ssh/your_private_ssh_file_name

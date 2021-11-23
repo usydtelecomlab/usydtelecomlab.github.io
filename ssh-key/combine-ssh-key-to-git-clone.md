@@ -21,36 +21,11 @@ Then you copy and paste below (**your\_private\_ssh\_file\_name** is your privat
 ```
 #github-usydtelecomlab
 Host github.com
-        HostName github.com
+        HostName usydtelecomlab.github.com
         #User git
         PreferredAuthentications publickey
         IdentityFile ~/.ssh/your_private_ssh_file_name
 ```
-
-{% hint style="info" %}
-If you have multiple Github accounts, you should use the setting below
-
-```
-#github-usydtelecomlab
-Host usydtelecomlab.github.com
-        HostName github.com
-        #User git
-        PreferredAuthentications publickey
-        IdentityFile ~/.ssh/your_private_ssh_file_name
-```
-
-However, this means we need to make some change in the Github SSH link
-
-The original link in the example is git
-
-* git@github.com:usydtelecomlab/usydtelecomlab.github.io.
-
-We need to change it into
-
-* git@**usydtelecomlab.**github.com:usydtelecomlab/usydtelecomlab.github.io.git
-
-Here you can see that, I use add **"usydtelecomlab."** as the prefix of **"github.com"**
-{% endhint %}
 
 Finally, you press **esc**, type `:wq` and press **enter**
 

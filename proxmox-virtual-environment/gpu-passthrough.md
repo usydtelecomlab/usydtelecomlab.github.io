@@ -104,3 +104,53 @@ lspci -vvv -s 01:00
 #        Kernel modules: snd_hda_intel
 ```
 
+## Forbid PVE to Load GPU Drivers
+
+Edit /etc/modprobe.d/pve-blacklist.conf
+
+```
+nano /etc/modprobe.d/pve-blacklist.conf
+```
+
+Add those codes below inside
+
+```
+# Nvidia GPU driver
+blacklist nvidiafb
+blacklist nouveau
+blacklist nvidia
+blacklist snd_hda_intel   
+
+# AMD GPU driver
+blacklist radeon
+
+# Integrated Video Card (it should be different on your device)
+blacklist snd_hda_codec_hdmi
+blacklist i915
+```
+
+Update
+
+```
+# Update initramfs
+# If ouput `EFI sync`, that is just caused by the way you install PVE.
+# Don't need to worry
+update-initramfs -u
+
+# Reboot
+reboot
+```
+
+## Add Our GPU to VM
+
+Open your brower to login on your PVE platform and add a PCI device to your VM
+
+{% hint style="danger" %}
+Please make sure your VM is shutdown or you will destory the stability of the entire platform
+{% endhint %}
+
+![Add a PCI device](../.gitbook/assets/add\_pci\_device.png)
+
+![Select your GPU as the PCI device](<../.gitbook/assets/add\_pci\_device\_selec GPU.png>)
+
+![Config your PIC device](../.gitbook/assets/add\_pci\_device\_config\_GPU.png)
